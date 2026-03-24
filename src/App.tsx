@@ -6,8 +6,8 @@ import { STATIC_LOCATIONS, LOC_HEXES } from './data/locations';
 import { CHAINS } from './data/chains';
 
 // ── Lib ───────────────────────────────────────────────────────────────────────
-import { getSeason, effectSummary } from './lib/effects';
-import { traitBonus, getAllBuildings, hasBldg } from './lib/helpers';
+import { getSeason, effectSummary, Effects } from './lib/effects';
+import { traitBonus, getAllBuildings, hasBldg, injureRandom } from './lib/helpers';
 import {
   initState, processTurn, checkNextPhase,
   applyPolicyImmediate, hneighbours, revealAround,
